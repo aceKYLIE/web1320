@@ -82,3 +82,22 @@ footer {
  hr{
     width: 95%;
  }
+
+ button{
+    background-color: black;
+    display: block;
+    width: 125px;
+    height: 25pt;
+    color: azure;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px ;
+    margin-top: 10px
+    border-raidius: 10px
+    margin-left:auto
+    margin-right:auto
+ }
+ .button:hover {
+    color: azure;
+
+ }
