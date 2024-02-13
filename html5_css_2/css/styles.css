@@ -71,7 +71,7 @@ lower{
 .col {
 padding:10px ; 
 margin: 10px
-border: 2px solid #000
+border; 2px solid #000
 width 33.33%
 }
 
@@ -93,7 +93,7 @@ footer {
     text-align: center;
     line-height: 35px ;
     margin-top: 10px
-    border-raidius: 10px
+    border-raidius; 10px
     margin-left:auto
     margin-right:auto
  }

@@ -1,0 +1,136 @@
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body{
+    background-color: gray;
+}
+
+#container{
+    background-color: aliceblue;
+    padding: 8%;
+} 
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+
+a{
+    color: black;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: none;
+}
+ /*moblie styles*/
+
+nav{
+    background-color: black;
+    padding: 10px;
+}
+nav ul {
+    list-style: none ;
+    padding: 0;
+}nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    height: 35px;
+    color: blueviolet;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    margin: 5px 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: blueviolet;
+}
+
+main{
+    border: 2px solid black;
+    padding: 10px;
+    margin:  10px 0;
+}
+
+#lower{
+   border:  2px solid black;
+   padding: 2px;
+}
+.col {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer{
+   padding: 40px ;
+text-align: center;
+}
+
+.botton{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color: gray;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 4px;
+    border: 4px;
+    font-weight: bold;
+}
+.botton{
+    color: black;
+}
+/*tablet styles*/
+
+@media (min-width: 786px) {
+
+nav{
+    text-align: center;
+}
+
+    nav li {
+    display: inline-block;
+}
+nav li a {
+    width: 200px; 
+}
+main img {
+    width: 75%
+}
+}
+#lower{
+    width: 75%;
+    margin: 0 auto;
+}
+.col{
+    width: 75%
+    75%
+}
+
+/*desktopo styles*/
+
+@midia (min-width:1024px0){
+    #container{
+        width: 65%
+        margin:20px auto;
+
+    }
+    #lower {
+        width;100%
+        display: flex;
+
+    }
+    .col {
+        width: 33.33%;
+        
+    }
+}
