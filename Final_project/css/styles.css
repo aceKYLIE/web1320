@@ -125,11 +125,10 @@ main img {
 }
 .col{
     width: 75%
-    75%
 }
 
 /*desktopo styles*/
-@media (min-width:1024px0){
+@media (min-width:1024px){
     #container{
         width: 65%
         margins: auto 
@@ -137,7 +136,7 @@ main img {
 
     #lower {
         width: 100%
-        display; flex:auto
+        
     }
     .col {
         width: 33.33%;
